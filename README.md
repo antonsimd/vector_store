@@ -41,7 +41,7 @@ Returns basic API information and available endpoints.
   "message": "Welcome to the Flask API",
   "endpoints": [
     {"path": "/", "method": "GET", "description": "API information"},
-    {"path": "/health", "method": "GET", "description": "Health check"}
+    {"path": "/healthcheck", "method": "GET", "description": "Health check"}
   ]
 }
 ```
